@@ -1,0 +1,252 @@
+.saldo {
+    margin-top: 30px;
+}
+
+.saldo p {
+    margin-left: 15px;
+}
+
+.saldo i {
+    margin-right: 20px;
+}
+
+.saldo .link-watshapp a {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    background: #25D366;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.saldo .link-watshapp a {
+    margin-top: 10px;
+}
+
+.row .card {
+    background-color: white;
+    border-style: none;
+}
+
+.row .card img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.daftar-jamaah p {
+    margin-left: 15px;
+}
+
+.daftar-jamaah i {
+    margin-right: 20px;
+}
+
+
+/* mading */
+
+.mading_item_date {
+    color: #25D366;
+}
+
+.mading_item_date:hover {
+    color: rgba(6, 7, 6, 0.6);
+}
+
+.alamat p {
+    margin-left: 15px;
+}
+
+.alamat i {
+    margin-right: 20px;
+}
+
+.feature-img {
+    max-width: 750px;
+    max-height: 375px;
+}
+
+
+/* update mading */
+
+#mading1,
+#mading2,
+#mading3 {
+    display: none;
+}
+
+.card-mading1 {
+    margin: 50px 0;
+    border: 1px solid gray;
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+.card-mading1 .calender {
+    margin: 20px;
+    text-align: center;
+}
+
+.card-mading1 .gambar {
+    margin: 20px;
+}
+
+.card-mading1 .gambar img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card-mading1 .keterangan {
+    margin: 20px;
+    max-width: 600px;
+}
+
+.card-mading1 .keterangan p {
+    line-height: 10px;
+}
+
+@media(max-width:1200px) {
+    .card-mading1 .keterangan p {
+        line-height: 20px;
+    }
+}
+
+.card-mading1 .Tombol {
+    margin: 40px;
+}
+
+.card-mading1 .Tombol button {
+    padding: 10px 40px;
+    cursor: pointer;
+    background: gray;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.card-mading1 .Tombol button:hover {
+    background: #25D366;
+    transition: .5s;
+}
+
+@media(max-width:992px) {
+    .card-mading1 {
+        margin: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .simbol {
+        display: none;
+    }
+    .card-mading1 .gambar {
+        position: relative;
+        top: 0px;
+        margin: 0;
+    }
+    .card-mading1 .gambar img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .card-mading1 .Tombol {
+        margin: 20px;
+    }
+}
+
+
+/* bagian donasi */
+
+#carouselExampleControls a {
+    color: white;
+    width: 40px;
+    height: 50px;
+    background: #25D366;
+    position: absolute;
+    top: 45%;
+}
+
+#carouselExampleControls a:hover {
+    color: white;
+    width: 35px;
+    height: 50px;
+    background: #14522a;
+}
+
+.carousel-control-prev {
+    border-radius: 0 50% 50% 0;
+}
+
+.carousel-control-next {
+    border-radius: 50% 0 0 50%;
+}
+
+#donasi {
+    margin: auto;
+}
+
+#donasi input {
+    width: 100px;
+    border-radius: 30px 30px;
+    height: 50px;
+    background: white;
+    color: rgb(36, 33, 33);
+    margin: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#donasi input:hover {
+    width: 100px;
+    border-radius: 30px 30px;
+    height: 50px;
+    background: #25D366;
+    color: white;
+    margin: 20px;
+    transition: .6s;
+}
+
+
+/* bagian pengurusan */
+
+.profile p {
+    background: #ddd;
+}
+
+.profile i {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.card-footer ul li {
+    cursor: pointer;
+}
+
+.card-footer ul li:hover {
+    background: gray;
+}
+
+
+/* laporan kas masjid */
+
+#jumlah .jumlah {
+    margin: 20px;
+}
+
+.col-md-4 .card #card-footer {
+    cursor: pointer;
+}
+
+.col-md-4 .card #card-footer:hover {
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 5px 2px 4px rgb(36, 33, 33, 0.15);
+    background: rgb(3, 104, 16);
+    color: seashell;
+}
+
+.position-absolute {
+    cursor: pointer;
+}
+
+.position-absolute:hover {
+    color: rgb(36, 33, 33, 0.15);
+}
